@@ -8,7 +8,7 @@
     
 }
 
-body {
+section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,14 @@ body {
     background: url("https://images.hdqwalls.com/wallpapers/bthumb/desert-night-minimal-4k-hp.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+    animation: animationdesert 50s ease-in-out 3s infinite;
+
+}
+
+@keyframes animationdesert {
+    100% {
+       filter: grayscale(1); 
+    }
 }
 
 
